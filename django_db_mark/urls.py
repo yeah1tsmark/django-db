@@ -22,4 +22,5 @@ app_name = "main"
 urlpatterns = [
     path('admin/', admin.site.urls),
     path('', views.index_page, name='index'),
+    path('insertData/', views.index_page, name='index')
 ]
