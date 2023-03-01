@@ -21,5 +21,5 @@ app_name = "main"
 
 urlpatterns = [
     path('admin/', admin.site.urls),
-    path('register/', views.register_request, name="register")
+    path('', views.index_page, name='index'),
 ]
