@@ -81,7 +81,7 @@ def updateData(request, id):
     return render(request, "edit.html", context)
 
 
-def pay(request):
+def pay(request, id):
     if request.method == "POST":
         phone_number = request.POST.get('phone')
         amount = request.POST.get('amount')
@@ -92,7 +92,7 @@ def pay(request):
         r = cl.stk_push(phone_number, amount, account_reference, transaction_desc, callback_url)
         return JsonResponse(r.response_description, safe=False)
 
-    return render(request, 'payments.html')
+    return render(request, 'index.html')
 
 
 cl = MpesaClient()
