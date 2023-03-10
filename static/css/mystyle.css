@@ -1,0 +1,49 @@
+body {
+    background-color: #d5d3ec !important;
+}
+
+.form-group{
+    width: 350px;
+    height: 70px;
+
+}
+
+.form-control{
+    background-color: #ffffff !important;
+    font-size: 22px;
+    font-family: "Century Schoolbook L", monospace;
+
+}
+
+
+
+.btn{
+    border-radius: 20px;
+    color: white;
+    background-color: black;
+    font-family: "Century Schoolbook L", monospace;
+    width: 80px;
+}
+
+.col-md-8{
+    margin-top: 20px;
+}
+
+h2{
+    font-size: 50px;
+    font-family: "Century Schoolbook L", monospace;
+    margin-left: 150px;
+}
+
+table {
+    font-family: "Century Schoolbook L", monospace;
+    font-size: 15px;
+    background-color: #ffffff !important;
+    width: 200px;
+
+}
+
+.navbar-brand{
+    font-size: 50px;
+    margin-left: 100px;
+}
