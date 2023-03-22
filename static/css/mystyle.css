@@ -2,17 +2,17 @@ body {
     background-color: #d5d3ec !important;
 }
 
-.form-group{
-    width: 350px;
-    height: 70px;
-
+.form{
+    margin-top: 100px;
 }
+
 
 .form-control{
     background-color: #ffffff !important;
-    font-size: 22px;
+    font-size: 20px;
     font-family: "Century Schoolbook L", monospace;
-
+    width: 350px;!important;
+    height: 50px;
 }
 
 
@@ -22,7 +22,7 @@ body {
     color: white;
     background-color: black;
     font-family: "Century Schoolbook L", monospace;
-    width: 80px;
+    width: 120px;
 }
 
 .col-md-8{
@@ -39,7 +39,7 @@ table {
     font-family: "Century Schoolbook L", monospace;
     font-size: 15px;
     background-color: #ffffff !important;
-    width: 200px;
+    width: 120px;
 
 }
 
@@ -47,3 +47,4 @@ table {
     font-size: 50px;
     margin-left: 100px;
 }
+

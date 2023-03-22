@@ -30,6 +30,10 @@ def signup_page(request):
     return render(request, "signup.html")
 
 
+def home_page(request):
+    return render(request, "home.html")
+
+
 def insertData(request):
     if request.method == "POST":
         name = request.POST.get('name')

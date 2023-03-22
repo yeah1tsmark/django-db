@@ -21,11 +21,14 @@ app_name = "main"
 
 urlpatterns = [
     path('admin/', admin.site.urls),
-    path('', views.index_page, name='index'),
+    path('index', views.index_page, name='index'),
     path('insert', views.insertData, name='insertData'),
     path('delete/<id>', views.deleteData, name='deleteData'),
     path('update/<id>', views.updateData, name='updateData'),
-    path('pay/<id>', views.pay, name='pay')
+    path('pay/<id>', views.pay, name='pay'),
+    path('', views.home_page, name='home')
+
+
 
 
 
